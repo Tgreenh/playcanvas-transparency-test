@@ -1,0 +1,22 @@
+html, body
+{
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/static/checkerboard-400.png');
+  background-size: 10%;
+}
+
+.viewer
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  width: 100vw;
+  height: 100vh;
+}
+
