@@ -11,7 +11,7 @@ export class PlayCanvasApp {
       mouse: new pc.Mouse(canvasDomElement),
       touch: new pc.TouchDevice(canvasDomElement),
       keyboard: new pc.Keyboard(window),
-      graphicsDeviceOptions: { alpha: true, premultiplieddAlpha: false },
+      graphicsDeviceOptions: { alpha: true, premultipliedAlpha: true },
     });
 
     this._app.setCanvasFillMode(pc.FILLMODE_FILL_WINDOW);
