@@ -25,7 +25,7 @@ export class PlayCanvasApp {
     // create camera
     this._camera = new pc.Entity();
     this._camera.addComponent("camera", {
-        clearColor: new pc.Color(1, 1, 1, 0.5),
+        clearColor: new pc.Color(1, 1, 1, 1),
         nearClip: 0.1,
         farClip: 10000
     });
